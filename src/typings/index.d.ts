@@ -83,13 +83,13 @@ interface Pokemon {
   ID: number;
   img: string;
   name: string;
-  gender: Gender;
-  type: Type[];
-  diamondType: DiamondType;
+  gender: Gender; // 性别
+  type: Type[]; // 属性
+  diamondType: DiamondType; // 钛晶属性
   ability: string; // 特性
-  tool: string;
-  nature: Nature;
-  realValue: Value;
-  striveValue: Value;
-  RaceValue: Value;
+  tool: string; // 道具
+  nature: Nature; // 性格
+  realValue: Value; // 实际能力值
+  striveValue: Value; // 努力值
+  RaceValue: Value; // 种族值
 }
